@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found | Young Einsteins</title>
+    <meta name="description" content="This page could not be found." />
+    <include src="src/partials/head-assets.html"></include>
+    <include src="src/partials/analytics.html"></include>
+  </head>
+  <body data-page="404" class="flex min-h-screen flex-col bg-white text-slate-800">
+    <include src="src/partials/nav.html"></include>
+
+    <main class="flex flex-1 items-center">
+      <div class="mx-auto max-w-2xl page-px py-20 text-center">
+        <p class="eyebrow" data-i18n="notfound.eyebrow">404</p>
+        <h1 class="text-3xl font-extrabold leading-tight xs:text-4xl sm:text-5xl" data-i18n="notfound.title">This page doesn't exist.</h1>
+        <p class="mt-4 text-base text-slate-600 sm:text-lg" data-i18n="notfound.text">
+          The page you're looking for may have moved or no longer exists.
+        </p>
+        <a href="index.html" class="btn-primary mt-8" data-i18n="notfound.cta">Back to Home</a>
+      </div>
+    </main>
+
+    <include src="src/partials/footer.html"></include>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

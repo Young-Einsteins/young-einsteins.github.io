@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subjects & Times | Young Einsteins</title>
+    <meta
+      name="description"
+      content="English, Maths, Science, and selected ATAR tutoring subjects and current session times at Young Einsteins in Dianella."
+    />
+    <include src="src/partials/head-assets.html"></include>
+    <include src="src/partials/analytics.html"></include>
+  </head>
+  <body data-page="subjects" class="flex min-h-screen flex-col bg-white text-slate-800">
+    <include src="src/partials/nav.html"></include>
+
+    <main class="flex-1">
+      <section class="py-14 sm:py-16">
+        <div class="mx-auto max-w-3xl page-px">
+          <p class="eyebrow" data-i18n="subjects.eyebrow">Subjects & Session Times</p>
+          <h1 class="text-3xl font-extrabold leading-tight xs:text-4xl sm:text-5xl" data-i18n="subjects.title">
+            Clear structure where it helps, flexibility where it matters.
+          </h1>
+          <p class="mt-4 text-base text-slate-600 sm:text-lg" data-i18n="subjects.lead">
+            Students receive support that fits their level, school topics, and goals.
+          </p>
+        </div>
+      </section>
+
+      <section class="pt-8 pb-12 sm:pt-10 sm:pb-16">
+        <div class="mx-auto grid max-w-6xl gap-5 page-px sm:grid-cols-2 lg:grid-cols-3">
+          <article class="card reveal" id="english">
+            <span class="tag tag-blue" data-i18n="programs.english.tag">English</span>
+            <h2 class="mt-3 text-xl font-bold" data-i18n="programs.english.title">English Support</h2>
+            <p class="mt-2 text-slate-600" data-i18n-html="programs.english.p1">
+              Structured English worksheets and guided support are available from <strong>Pre-Primary through to Year 12</strong>, depending
+              on student needs.
+            </p>
+            <p class="mt-2 text-slate-600" data-i18n="programs.english.p2">
+              Students can receive support with reading, comprehension, writing, grammar, spelling, and general English skills.
+            </p>
+            <p class="mt-2 text-slate-600" data-i18n-html="programs.english.testprep">
+              We provide <strong>NAPLAN preparation</strong> for reading, writing and comprehension, as well as
+              <strong>OLNA preparation</strong>.
+            </p>
+          </article>
+
+          <article class="card reveal" id="maths">
+            <span class="tag tag-yellow" data-i18n="programs.maths.tag">Mathematics</span>
+            <h2 class="mt-3 text-xl font-bold" data-i18n="programs.maths.title">Maths Support</h2>
+            <p class="mt-2 text-slate-600" data-i18n-html="programs.maths.p1">
+              For <strong>Pre-Primary to Year 6</strong>, students can follow a structured weekly maths program.
+            </p>
+            <p class="mt-2 text-slate-600" data-i18n-html="programs.maths.p2">
+              From <strong>Year 7 to Year 12</strong>, maths support becomes more personalised and topic-based, matching what the student is
+              learning at school.
+            </p>
+            <p class="mt-2 text-slate-600" data-i18n-html="programs.maths.testprep">
+              We offer <strong>NAPLAN numeracy preparation</strong>, as well as <strong>OLNA preparation</strong>.
+            </p>
+          </article>
+
+          <article class="card reveal sm:col-span-2 sm:mx-auto sm:max-w-sm lg:col-span-1 lg:mx-0 lg:max-w-none" id="atar">
+            <span class="tag tag-red" data-i18n="programs.atar.tag">Science and ATAR</span>
+            <h2 class="mt-3 text-xl font-bold" data-i18n="programs.atar.title">Additional Subjects</h2>
+            <p class="mt-2 text-slate-600" data-i18n-html="programs.atar.p1">
+              Selected <strong>Science</strong> subjects and several <strong>ATAR subjects</strong> may be available by request.
+            </p>
+            <p class="mt-2 text-slate-600" data-i18n-html="programs.atar.p2">
+              Current ATAR support includes <strong>English, Applications, Methods, Chemistry, Biology, and Human Biology</strong>.
+            </p>
+            <p class="mt-2 text-slate-600" data-i18n="programs.atar.p3">
+              Other subjects may be available depending on the student's needs. Please contact us to discuss.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="payments" class="pt-4 pb-12 sm:pt-6 sm:pb-16">
+        <div class="mx-auto max-w-3xl page-px">
+          <p class="eyebrow" data-i18n="subjects.payments.eyebrow">Payment Options</p>
+          <h2 class="section-title" data-i18n="subjects.payments.title">Flexible payment arrangements made for every family.</h2>
+        </div>
+
+        <div class="mx-auto mt-6 grid max-w-6xl gap-5 page-px sm:grid-cols-2">
+          <article class="card reveal">
+            <h3 class="text-lg font-bold" data-i18n="subjects.payments.monthly.title">Monthly Payments</h3>
+            <p class="mt-2 text-slate-600" data-i18n="subjects.payments.monthly.text">A convenient option for ongoing tutoring support.</p>
+          </article>
+          <article class="card reveal">
+            <h3 class="text-lg font-bold" data-i18n="subjects.payments.term.title">Term Basis</h3>
+            <p class="mt-2 text-slate-600" data-i18n="subjects.payments.term.text">
+              Available for families who prefer to plan ahead across the school term.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="times" class="py-12 sm:py-16">
+        <div class="mx-auto max-w-3xl page-px text-center">
+          <h2 class="section-title" data-i18n="subjects.times.title">Current Lesson Times</h2>
+          <p class="mt-3 text-slate-600" data-i18n="subjects.times.lead">
+            Lesson availability may change, so please contact us to confirm a suitable time. Each subject can be booked in 1 hour or 1.5
+            hour tutoring sessions, depending on the student's needs.
+          </p>
+        </div>
+
+        <div class="mx-auto mt-6 grid max-w-6xl gap-5 page-px sm:grid-cols-3">
+          <article class="card reveal p-5 text-center">
+            <h3 class="text-lg font-bold" data-i18n="schedule.tuesfri.title">Tuesday - Friday</h3>
+            <p class="mt-2 text-xl font-extrabold text-brand-blue">
+              <span class="sm:hidden" data-i18n="schedule.tuesfri.short">4:30 - 7:00 pm</span>
+              <span class="hidden sm:inline" data-i18n="schedule.tuesfri.text">4:30 pm - 7:00 pm</span>
+            </p>
+          </article>
+          <article class="card reveal p-5 text-center">
+            <h3 class="text-lg font-bold" data-i18n="schedule.sat.title">Saturday</h3>
+            <p class="mt-2 text-xl font-extrabold text-brand-blue">
+              <span class="sm:hidden" data-i18n="schedule.sat.short">9:00 - 5:30 pm</span>
+              <span class="hidden sm:inline" data-i18n="schedule.sat.text">9:00 am - 5:30 pm</span>
+            </p>
+          </article>
+          <article class="card reveal p-5 text-center">
+            <h3 class="text-lg font-bold" data-i18n="schedule.sun.title">Sunday</h3>
+            <p class="mt-2 text-xl font-extrabold text-brand-blue">
+              <span class="sm:hidden" data-i18n="schedule.sun.short">9:00 - 1:30 pm</span>
+              <span class="hidden sm:inline" data-i18n="schedule.sun.text">9:00 am - 1:30 pm</span>
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <include src="src/partials/footer.html"></include>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

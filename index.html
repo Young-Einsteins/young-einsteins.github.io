@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Young Einsteins Tutoring Services</title>
+    <meta
+      name="description"
+      content="Young Einsteins offers English, Maths, Science, and selected ATAR tutoring in Dianella for students from early years through to Year 12."
+    />
+    <include src="src/partials/head-assets.html"></include>
+    <include src="src/partials/analytics.html"></include>
+  </head>
+  <body data-page="home" class="flex min-h-screen flex-col bg-white text-slate-800">
+    <include src="src/partials/nav.html"></include>
+
+    <main class="flex-1">
+      <section class="bg-gradient-to-b from-white to-slate-50 pt-12 pb-8 sm:pt-16 sm:pb-10 lg:pt-24 lg:pb-12">
+        <div class="mx-auto grid max-w-6xl gap-10 page-px lg:grid-cols-[1fr_1fr] lg:items-center lg:gap-10">
+          <div class="reveal">
+            <p class="eyebrow" data-i18n="home.eyebrow">English, Maths, and Science Tutoring in Northern Suburbs</p>
+            <h1 class="max-w-xl text-3xl font-extrabold leading-tight xs:text-4xl sm:text-5xl lg:text-6xl" data-i18n="home.hero.title">
+              Structured learning with personalised support.
+            </h1>
+            <p class="mt-5 max-w-lg text-base text-slate-600 sm:text-lg" data-i18n="home.hero.text">
+              Young Einsteins supports students from early years through to ATAR with focused tutoring, flexible learning options, and work
+              matched to every student's needs.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-3">
+              <a href="contact.html" class="btn-primary" data-i18n="home.cta.enquire">Make an Enquiry</a>
+              <a href="subjects.html" class="btn-secondary border-2 border-brand-blue/20" data-i18n="home.cta.subjects">View Subjects</a>
+            </div>
+          </div>
+
+          <div class="reveal rounded-xl bg-white p-6 lg:mt-16">
+            <img
+              src="/assets/hero-session.jpg"
+              alt="A Young Einsteins tutor helping two students with their worksheets"
+              data-i18n-attr="alt:home.hero.photo.alt"
+              width="1200"
+              height="675"
+              class="mb-5 w-full rounded-lg"
+            />
+            <div class="grid gap-3">
+              <div class="stat-box">
+                <strong class="block font-extrabold text-brand-blue" data-i18n="home.stat1.title">15+ Years</strong>
+                <span class="text-sm text-slate-500" data-i18n="home.stat1.text">Helping students build skills and confidence</span>
+              </div>
+              <div class="stat-box">
+                <strong class="block font-extrabold text-brand-blue" data-i18n="home.stat2.title">Small groups</strong>
+                <span class="text-sm text-slate-500" data-i18n="home.stat2.text">Usually 5-6 students per table</span>
+              </div>
+              <div class="stat-box">
+                <strong class="block font-extrabold text-brand-blue" data-i18n="home.stat3.title">Private lessons</strong>
+                <span class="text-sm text-slate-500" data-i18n="home.stat3.text">Available by request</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pt-6 pb-8 sm:pt-8 sm:pb-10">
+        <div class="mx-auto grid max-w-6xl gap-6 page-px lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+          <div class="reveal">
+            <p class="eyebrow" data-i18n="home.offer.eyebrow">What We Offer</p>
+            <h2 class="section-title" data-i18n="home.offer.title">Support across Primary, Secondary and selected ATAR subjects.</h2>
+          </div>
+          <p class="reveal text-base text-slate-600 sm:text-lg lg:max-w-xl" data-i18n="home.offer.text">
+            Our tutoring is designed to meet student requirements. Younger students can follow structured weekly programs, while older
+            students receive more topic-based support aligned with school work and upcoming assessments.
+          </p>
+        </div>
+      </section>
+
+      <section class="pt-8 pb-12 sm:pt-10 sm:pb-16">
+        <div class="mx-auto grid max-w-6xl gap-5 page-px sm:grid-cols-2 lg:grid-cols-3">
+          <article class="card reveal">
+            <span class="tag tag-blue" data-i18n="home.card.english.tag">English</span>
+            <h3 class="mt-3 text-xl font-bold" data-i18n="home.card.english.title">English Support</h3>
+            <p class="mt-2 text-slate-600" data-i18n="home.card.english.text">
+              Reading, comprehension, writing, and general English support from early years through to senior school.
+            </p>
+            <a href="subjects.html#english" class="text-link" data-i18n="home.card.link">Learn more</a>
+          </article>
+
+          <article class="card reveal">
+            <span class="tag tag-yellow" data-i18n="home.card.maths.tag">Mathematics</span>
+            <h3 class="mt-3 text-xl font-bold" data-i18n="home.card.maths.title">Maths Support</h3>
+            <p class="mt-2 text-slate-600" data-i18n="home.card.maths.text">
+              Structured primary maths and personalised secondary maths help based on current school topics.
+            </p>
+            <a href="subjects.html#maths" class="text-link" data-i18n="home.card.link">Learn more</a>
+          </article>
+
+          <article class="card reveal sm:col-span-2 sm:mx-auto sm:max-w-sm lg:col-span-1 lg:mx-0 lg:max-w-none">
+            <span class="tag tag-red" data-i18n="home.card.atar.tag">Science and ATAR</span>
+            <h3 class="mt-3 text-xl font-bold" data-i18n="home.card.atar.title">Additional Subjects</h3>
+            <p class="mt-2 text-slate-600" data-i18n="home.card.atar.text">
+              Selected Science and ATAR subjects may be available depending on student's needs and tutor availability.
+            </p>
+            <a href="subjects.html#atar" class="text-link" data-i18n="home.card.link">Learn more</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="pt-2 pb-14 sm:pt-3 sm:pb-16">
+        <div class="reveal mx-auto grid max-w-6xl items-center gap-6 rounded-xl page-px py-8 lg:grid-cols-[1fr_auto_auto]">
+          <div>
+            <p class="eyebrow" data-i18n="home.times.eyebrow">Current Lesson Times</p>
+            <h2 class="section-title" data-i18n="home.times.title">Lessons run after school and on weekends.</h2>
+          </div>
+          <div class="grid gap-1.5 text-base text-slate-700 sm:text-lg">
+            <p class="font-semibold">
+              <span class="sm:hidden" data-i18n="home.times.tuesfri.short">Tue - Fri: 4:30 - 7:00 pm</span>
+              <span class="hidden sm:inline" data-i18n="home.times.tuesfri">Tuesday - Friday: 4:30 pm - 7:00 pm</span>
+            </p>
+            <p class="font-semibold">
+              <span class="sm:hidden" data-i18n="home.times.sat.short">Saturday: 9:00 - 5:30 pm</span>
+              <span class="hidden sm:inline" data-i18n="home.times.sat">Saturday: 9:00 am - 5:30 pm</span>
+            </p>
+            <p class="font-semibold">
+              <span class="sm:hidden" data-i18n="home.times.sun.short">Sunday: 9:00 - 1:30 pm</span>
+              <span class="hidden sm:inline" data-i18n="home.times.sun">Sunday: 9:00 am - 1:30 pm</span>
+            </p>
+          </div>
+          <a href="subjects.html#times" class="btn-secondary w-fit border-2 border-brand-blue/20" data-i18n="home.times.cta">
+            See Subjects &amp; Times
+          </a>
+        </div>
+      </section>
+
+      <section class="bg-brand-blue pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div class="reveal mx-auto max-w-3xl page-px text-center text-white">
+          <p class="eyebrow text-white/80" data-i18n="home.reviews.eyebrow">What Parents Say</p>
+          <h2 class="section-title" data-i18n="home.reviews.title">Real feedback from Young Einsteins families.</h2>
+        </div>
+
+        <div class="marquee mt-10">
+          <div id="testimonial-track" class="marquee-track"></div>
+        </div>
+      </section>
+
+      <section class="bg-brand-blue py-12 text-white sm:py-16">
+        <div class="reveal mx-auto flex max-w-6xl flex-col items-start gap-6 page-px sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p class="eyebrow text-white/80" data-i18n="home.contact.eyebrow">Start Here</p>
+            <h2 class="section-title-sm" data-i18n="home.contact.title">Ask about availability, subjects, and lesson options.</h2>
+          </div>
+          <a
+            href="contact.html"
+            class="btn-primary bg-white text-brand-blue hover:bg-slate-100 hover:text-brand-blue-dark"
+            data-i18n="home.contact.cta"
+          >
+            Contact Young Einsteins
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <include src="src/partials/footer.html"></include>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

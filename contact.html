@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Young Einsteins</title>
+    <meta
+      name="description"
+      content="Contact Young Einsteins to ask about tutoring availability, subjects, lesson times, and private lessons."
+    />
+    <include src="src/partials/head-assets.html"></include>
+    <include src="src/partials/analytics.html"></include>
+  </head>
+  <body data-page="contact" class="flex min-h-screen flex-col bg-white text-slate-800">
+    <include src="src/partials/nav.html"></include>
+
+    <main class="flex-1">
+      <section class="py-14 sm:py-16">
+        <div class="mx-auto max-w-3xl page-px">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact Us</p>
+          <h1 class="text-3xl font-extrabold leading-tight xs:text-4xl sm:text-5xl" data-i18n="contact.title">
+            Get in touch to discuss your child's learning needs.
+          </h1>
+          <p class="mt-4 text-base text-slate-600 sm:text-lg" data-i18n="contact.lead">
+            Call, email, or send an enquiry below. Fallback contact details are always shown in case the form cannot be sent.
+          </p>
+        </div>
+      </section>
+
+      <section class="pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div class="mx-auto grid max-w-6xl gap-6 page-px lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+          <aside class="reveal">
+            <h2 class="text-xl font-bold" data-i18n="contact.details.title">Contact Details</h2>
+            <p class="mt-2 text-slate-600" data-i18n="contact.details.text">
+              Please ask about class availability, subjects, private lessons, or general learning support.
+            </p>
+            <div class="mt-5 grid gap-3">
+              <a href="tel:0404865516" class="font-bold text-slate-800 hover:text-brand-blue">
+                <span class="block text-xs font-extrabold uppercase tracking-wide text-brand-blue" data-i18n="contact.details.mobile"
+                  >Mobile</span
+                >
+                0404 865 516
+              </a>
+              <a href="mailto:young.einsteins@outlook.com" class="break-all font-bold text-slate-800 hover:text-brand-blue">
+                <span class="block text-xs font-extrabold uppercase tracking-wide text-brand-blue" data-i18n="contact.details.email"
+                  >Email</span
+                >
+                young.einsteins@outlook.com
+              </a>
+            </div>
+            <p class="mt-5 text-slate-600"><strong data-i18n="contact.details.focus">Main focus: English and Maths tutoring.</strong></p>
+            <p class="mt-2 text-slate-600">
+              <strong data-i18n="contact.details.also">Also available: Selected Science and ATAR subjects on request.</strong>
+            </p>
+          </aside>
+
+          <section class="reveal">
+            <h2 class="text-xl font-bold" data-i18n="contact.form.title">Enquiry Form</h2>
+            <p class="mt-1 text-slate-600" data-i18n="contact.form.intro">
+              Fill in the form below and we'll get back to you as soon as possible.
+            </p>
+
+            <!-- WEB3FORMS ACCESS KEY GOES HERE. -->
+            <form id="contact-form" novalidate data-web3forms-access-key="" class="mt-6">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none" tabindex="-1" autocomplete="off" />
+
+              <div class="grid gap-5 sm:grid-cols-2">
+                <div class="form-group">
+                  <label for="student_name" class="field-label" data-i18n="contact.form.label.studentname">Student's Full Name *</label>
+                  <input type="text" id="student_name" name="student_name" required class="field-input" />
+                  <small class="field-error"></small>
+                </div>
+                <div class="form-group">
+                  <label for="parent_name" class="field-label" data-i18n="contact.form.label.parent">Parent / Guardian Name *</label>
+                  <input type="text" id="parent_name" name="parent_name" required class="field-input" />
+                  <small class="field-error"></small>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="field-label" data-i18n="contact.form.label.email">Email Address *</label>
+                  <input type="email" id="email" name="email" required class="field-input" />
+                  <small class="field-error"></small>
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="field-label" data-i18n="contact.form.label.phone">Mobile Number *</label>
+                  <input type="tel" id="phone" name="phone" required class="field-input" />
+                  <small class="field-error"></small>
+                </div>
+                <div class="form-group">
+                  <label for="student_year" class="field-label" data-i18n="contact.form.label.year">Student Year Level *</label>
+                  <select id="student_year" name="student_year" required class="field-input">
+                    <option value="" data-i18n="contact.form.option.select">Please select</option>
+                    <option value="Year 12" data-i18n="contact.form.option.year12">Year 12</option>
+                    <option value="Year 11" data-i18n="contact.form.option.year11">Year 11</option>
+                    <option value="Year 10" data-i18n="contact.form.option.year10">Year 10</option>
+                    <option value="Year 9" data-i18n="contact.form.option.year9">Year 9</option>
+                    <option value="Year 8" data-i18n="contact.form.option.year8">Year 8</option>
+                    <option value="Year 7" data-i18n="contact.form.option.year7">Year 7</option>
+                    <option value="Year 6" data-i18n="contact.form.option.year6">Year 6</option>
+                    <option value="Year 5" data-i18n="contact.form.option.year5">Year 5</option>
+                    <option value="Year 4" data-i18n="contact.form.option.year4">Year 4</option>
+                    <option value="Year 3" data-i18n="contact.form.option.year3">Year 3</option>
+                    <option value="Year 2" data-i18n="contact.form.option.year2">Year 2</option>
+                    <option value="Year 1" data-i18n="contact.form.option.year1">Year 1</option>
+                    <option value="Pre-Primary" data-i18n="contact.form.option.preprimary">Pre-Primary</option>
+                    <option value="Other" data-i18n="contact.form.option.yearother">Other</option>
+                  </select>
+                  <small class="field-error"></small>
+                </div>
+                <div class="form-group">
+                  <label for="subject_needed" class="field-label" data-i18n="contact.form.label.subject">Subject Needed *</label>
+                  <select id="subject_needed" name="subject_needed" required class="field-input">
+                    <option value="" data-i18n="contact.form.option.select">Please select</option>
+                    <option value="English" data-i18n="contact.form.option.english">English</option>
+                    <option value="Mathematics" data-i18n="contact.form.option.maths">Mathematics</option>
+                    <option value="Science" data-i18n="contact.form.option.science">Science</option>
+                    <option value="ATAR" data-i18n="contact.form.option.atar">ATAR</option>
+                    <option value="NAPLAN Preparation" data-i18n="contact.form.option.naplan">NAPLAN Preparation</option>
+                    <option value="OLNA Preparation" data-i18n="contact.form.option.olna">OLNA Preparation</option>
+                    <option value="Other" data-i18n="contact.form.option.other">Other</option>
+                  </select>
+                  <small class="field-error"></small>
+                </div>
+                <div class="form-group">
+                  <label for="lesson_type" class="field-label" data-i18n="contact.form.label.lessontype">Lesson Type</label>
+                  <select id="lesson_type" name="lesson_type" class="field-input">
+                    <option value="" data-i18n="contact.form.option.select">Please select</option>
+                    <option value="Small Group" data-i18n="contact.form.option.smallgroup">Small Group</option>
+                    <option value="Private Lesson" data-i18n="contact.form.option.private">Private Lesson</option>
+                    <option value="Not Sure Yet" data-i18n="contact.form.option.notsure">Not Sure Yet</option>
+                  </select>
+                </div>
+                <div class="form-group hidden" id="atar_subject_group">
+                  <label for="atar_subject" class="field-label" data-i18n="contact.form.label.atarsubject">ATAR Subject *</label>
+                  <select id="atar_subject" name="atar_subject" class="field-input">
+                    <option value="" data-i18n="contact.form.option.select">Please select</option>
+                    <option value="English" data-i18n="contact.form.option.atarenglish">English</option>
+                    <option value="Chemistry" data-i18n="contact.form.option.atarchemistry">Chemistry</option>
+                    <option value="Biology" data-i18n="contact.form.option.atarbiology">Biology</option>
+                    <option value="Human Biology" data-i18n="contact.form.option.atarhumanbio">Human Biology</option>
+                    <option value="Applications" data-i18n="contact.form.option.atarapplications">Applications</option>
+                    <option value="Methods" data-i18n="contact.form.option.atarmethods">Methods</option>
+                    <option value="Specialist" data-i18n="contact.form.option.atarspecialist">Specialist</option>
+                  </select>
+                  <small class="field-error"></small>
+                </div>
+                <div class="form-group sm:col-span-2">
+                  <label for="message" class="field-label" data-i18n="contact.form.label.message">Comments / Request *</label>
+                  <textarea id="message" name="message" rows="6" required maxlength="1000" class="field-input"></textarea>
+                  <small id="message-counter" class="mt-1 block text-right text-xs text-slate-400"></small>
+                  <small class="field-error"></small>
+                </div>
+              </div>
+
+              <button type="submit" class="btn-primary mt-6" data-i18n="contact.form.submit">Send Message</button>
+              <p id="form-status" class="mt-4 font-bold" aria-live="polite"></p>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <include src="src/partials/footer.html"></include>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

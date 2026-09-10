@@ -1,0 +1,23 @@
+# Dependencies - regenerated via `npm install` from package.json/package-lock.json
+node_modules/
+
+# Build output - regenerated via `npm run build`
+dist/
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+
+# Local env files - not used by this project today (no backend, no secrets),
+# but ignored defensively so one never ends up committed if added later.
+.env
+.env.*
+
+# Client-supplied source material - raw photos, not part of the site.
+drive-download-*/
