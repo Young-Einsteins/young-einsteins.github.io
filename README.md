@@ -1,7 +1,8 @@
 # Young Einsteins Website
 
 Website for Young Einsteins tutoring, built with Vite, Tailwind CSS, and an
-EN/VI language toggle. Deployed as a static build to GitHub Pages.
+EN/VI language toggle. Deployed as a static build to GitHub Pages at
+[youngeinsteins.com.au](https://youngeinsteins.com.au).
 
 ## Stack
 
@@ -34,22 +35,6 @@ npm run preview   # preview the production build locally
 npm run lint      # ESLint
 npm run format    # Prettier, writes formatting fixes
 ```
-
-## Before launch - fill in these placeholders
-
-1. **Web3Forms access key** - in [contact.html](contact.html), set
-   `data-web3forms-access-key="..."` on the `<form>`. Create the key at
-   [web3forms.com](https://web3forms.com) using the destination inbox
-   enquiries should be sent to - the destination email is tied to the access
-   key on Web3Forms' side, it is not set in this codebase at all.
-2. **Google Analytics Measurement ID** - in
-   [src/partials/analytics.html](src/partials/analytics.html), replace both
-   instances of `G-XXXXXXXXXX` with the real GA4 Measurement ID.
-3. **Vite `base` path** - in [vite.config.js](vite.config.js), `base` is set
-   to `/`, which assumes the site is served from a domain root (a custom
-   domain, or a GitHub `username.github.io` user/org page). If it instead
-   deploys to `username.github.io/repo-name`, change `base` to
-   `/repo-name/`.
 
 ## Folder structure
 
@@ -110,9 +95,10 @@ site.
 ## GitHub Pages deployment
 
 `.github/workflows/deploy.yml` builds the site with `npm ci && npm run build`
-and publishes `./dist` via `actions/deploy-pages` on every push to `main`. In
-the repository, set **Settings -> Pages -> Source** to **GitHub Actions**
-(not "Deploy from branch").
+and publishes `./dist` via `actions/deploy-pages` on every push to `main`.
+Pages is configured with **Settings -> Pages -> Source** set to **GitHub
+Actions** (not "Deploy from branch"), and the custom domain
+`youngeinsteins.com.au` is set there with "Enforce HTTPS" enabled.
 
 ## Free-tier limits
 
