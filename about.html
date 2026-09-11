@@ -8,6 +8,8 @@
       name="description"
       content="Learn about Young Einsteins tutoring in Dianella, supporting students from early years to Year 12 for 15+ years."
     />
+    <link rel="canonical" href="https://youngeinsteins.com.au/about" />
+    <meta property="og:url" content="https://youngeinsteins.com.au/about" />
     <include src="src/partials/head-assets.html"></include>
     <include src="src/partials/analytics.html"></include>
   </head>
@@ -24,6 +26,14 @@
           <p class="mt-4 text-base text-slate-600 sm:text-lg" data-i18n="about.lead">
             Young Einsteins has been helping students in Dianella and surrounding Perth suburbs for 15+ years.
           </p>
+          <img
+            src="/assets/about-session.jpg"
+            alt="Two students working through their notes together at Young Einsteins"
+            data-i18n-attr="alt:about.photo.alt"
+            width="1200"
+            height="675"
+            class="mt-6 aspect-video w-full rounded-xl object-cover shadow-(--shadow-card) lg:hidden"
+          />
         </div>
       </section>
 
@@ -80,7 +90,7 @@
             width="1200"
             height="675"
             loading="lazy"
-            class="reveal aspect-video w-full rounded-xl object-cover shadow-(--shadow-card) lg:order-2"
+            class="reveal hidden aspect-video w-full rounded-xl object-cover shadow-(--shadow-card) lg:order-2 lg:block"
           />
         </div>
       </section>

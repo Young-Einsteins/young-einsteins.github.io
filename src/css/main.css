@@ -48,7 +48,7 @@ body {
   }
 
   .lang-toggle {
-    @apply mt-2 inline-flex w-fit shrink-0 items-center gap-1 rounded-full border-2 border-slate-300 bg-slate-50 p-1.5 text-sm font-extrabold text-slate-500 lg:ml-2 lg:mt-0;
+    @apply inline-flex w-fit shrink-0 items-center gap-1 rounded-full border-2 border-slate-300 bg-slate-50 p-1.5 text-sm font-extrabold text-slate-500 lg:ml-2;
   }
 
   .lang-option {
@@ -77,7 +77,7 @@ body {
   }
 
   .nav-cta {
-    @apply shrink-0 whitespace-nowrap rounded-full;
+    @apply shrink-0 whitespace-nowrap;
   }
 
   .card {
