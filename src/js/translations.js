@@ -10,6 +10,7 @@ export const translations = {
   "nav.masterclasses": { en: "Masterclasses", vi: "Lớp Học Chuyên Sâu" },
   "nav.contact": { en: "Contact", vi: "Liên Hệ" },
   "nav.contactcta": { en: "Contact Us", vi: "Liên Hệ Ngay" },
+  "nav.language": { en: "Language", vi: "Ngôn Ngữ" },
 
   "footer.tagline": { en: "Dianella, Perth WA", vi: "Dianella, Perth WA" },
   "footer.quicklinks.title": { en: "Quick Links", vi: "Liên Kết Nhanh" },
@@ -263,8 +264,8 @@ export const translations = {
 
   "masterclasses.what.title": { en: "What is a Masterclass?", vi: "Lớp chuyên sâu là gì?" },
   "masterclasses.what.item1": {
-    en: "A 3.5 hour class, led by experienced and passionate 90+ ATAR tutors.",
-    vi: "Một buổi học kéo dài 3,5 giờ, do các gia sư giàu kinh nghiệm và nhiệt huyết đạt ATAR 90+ giảng dạy.",
+    en: "A 7 hour class divided between Saturday and Sunday, led by experienced and passionate 90+ ATAR tutors.",
+    vi: "Một buổi học kéo dài 7 giờ, chia thành hai ngày Thứ Bảy và Chủ Nhật, do các gia sư giàu kinh nghiệm và nhiệt huyết đạt ATAR 90+ giảng dạy.",
   },
   "masterclasses.what.item2": {
     en: "We go through the Unit 3 or Unit 4 content you need to know for your exam, and show you exactly how to achieve full marks.",
@@ -329,8 +330,8 @@ export const translations = {
   "masterclasses.u4.mathapp.time": { en: "10:00 am - 1:30 pm", vi: "10:00 - 13:30" },
   "masterclasses.u4.mathapp.date": { en: "Sun 20 Sep 2026", vi: "Chủ Nhật 20 Tháng 9 2026" },
   "masterclasses.u4.mathapp.topics": {
-    en: "Time Series Analysis, Loans, Investments and Annuities, Networks and Decision Mathematics",
-    vi: "Phân Tích Chuỗi Thời Gian, Vay Vốn, Đầu Tư và Niên Kim, Mạng Lưới và Toán Ra Quyết Định",
+    en: "Time Series Analysis, Finance, Critical Path Analysis, Trees, Flow and Assignment Problems",
+    vi: "Phân Tích Chuỗi Thời Gian, Tài Chính, Phân Tích Đường Găng, Đồ Thị Cây, Bài Toán Luồng và Phân Công",
   },
 
   "masterclasses.u4.mathmethods.time": { en: "2:00 pm - 5:30 pm", vi: "14:00 - 17:30" },
