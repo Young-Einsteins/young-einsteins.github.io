@@ -17,7 +17,7 @@ export function initCookieBanner() {
   banner.innerHTML = `
     <p class="text-center sm:text-left">
       <span data-i18n="cookie.message">${translate(lang, "cookie.message")}</span>
-      <a href="privacy.html" class="ml-1 font-bold text-brand-blue underline" data-i18n="cookie.learnmore">${translate(lang, "cookie.learnmore")}</a>
+      <a href="/privacy" class="ml-1 font-bold text-brand-blue underline" data-i18n="cookie.learnmore">${translate(lang, "cookie.learnmore")}</a>
     </p>
     <button type="button" id="cookie-accept" class="btn-primary shrink-0 px-6 py-2.5" data-i18n="cookie.accept">${translate(lang, "cookie.accept")}</button>
   `;
