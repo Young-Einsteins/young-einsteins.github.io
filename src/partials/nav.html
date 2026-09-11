@@ -1,6 +1,6 @@
 <header class="site-header sticky top-0 z-50 border-b-2 border-slate-200/80 bg-white/90 backdrop-blur">
   <div class="relative mx-auto flex max-w-6xl items-center justify-between gap-3 page-px py-3 sm:py-4">
-    <a href="index.html" class="brand flex min-w-0 items-center gap-3" aria-label="Young Einsteins home">
+    <a href="/" class="brand flex min-w-0 items-center gap-3" aria-label="Young Einsteins home">
       <img
         src="/assets/logo.png"
         alt="Young Einsteins logo"
@@ -8,16 +8,23 @@
         height="56"
         class="h-11 w-11 shrink-0 rounded-lg bg-white object-contain sm:h-14 sm:w-14"
       />
-      <span class="hidden min-w-0 leading-tight xs:grid">
+      <span class="grid min-w-0 leading-tight">
         <span class="truncate text-base font-extrabold text-slate-900 sm:text-lg" data-i18n="brand.title">Young Einsteins</span>
-        <span class="hidden truncate text-sm italic text-slate-500 sm:block" data-i18n="brand.slogan"
+        <span
+          class="line-clamp-2 text-[11px] italic text-slate-500 md:line-clamp-none md:truncate md:text-[13px] lg:text-sm"
+          data-i18n="brand.slogan"
           >Nurture, Enhance and Stimulate Bright Sparks</span
         >
       </span>
     </a>
 
     <div class="flex items-center gap-3 lg:hidden">
-      <button type="button" id="lang-toggle-mobile" class="lang-toggle" aria-label="Switch language / Chuyển ngôn ngữ">
+      <button
+        type="button"
+        id="lang-toggle-mobile"
+        class="lang-toggle hidden md:inline-flex lg:hidden"
+        aria-label="Switch language / Chuyển ngôn ngữ"
+      >
         <span class="lang-option" data-lang="en">EN</span>
         <span class="lang-divider" aria-hidden="true">/</span>
         <span class="lang-option" data-lang="vi">VI</span>
@@ -38,26 +45,32 @@
     </div>
 
     <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-      <a href="about.html" data-page-link="about" data-i18n="nav.about" class="nav-link">About</a>
-      <a href="subjects.html" data-page-link="subjects" data-i18n="nav.subjects" class="nav-link">Subjects</a>
-      <a href="masterclasses.html" data-page-link="masterclasses" data-i18n="nav.masterclasses" class="nav-link">Masterclasses</a>
+      <a href="/about" data-page-link="about" data-i18n="nav.about" class="nav-link">About</a>
+      <a href="/subjects" data-page-link="subjects" data-i18n="nav.subjects" class="nav-link">Subjects</a>
+      <a href="/masterclasses" data-page-link="masterclasses" data-i18n="nav.masterclasses" class="nav-link">Masterclasses</a>
       <a
-        href="contact.html"
+        href="/contact"
         data-page-link="contact"
         data-i18n="nav.contactcta"
         class="btn-primary nav-cta min-h-0 w-full justify-center px-4 py-2 lg:w-auto"
         >Contact Us</a
       >
 
+      <span
+        class="mt-3 block border-t border-slate-200 pt-3 text-xs font-extrabold uppercase tracking-wide text-slate-500 md:hidden"
+        data-i18n="nav.language"
+        >Language</span
+      >
+
       <button
         type="button"
         id="lang-toggle-desktop"
-        class="lang-toggle hidden lg:inline-flex"
+        class="lang-toggle mt-2 inline-flex md:hidden lg:mt-0 lg:inline-flex"
         aria-label="Switch language / Chuyển ngôn ngữ"
       >
-        <span class="lang-option" data-lang="en"><span class="hidden lg:inline">English </span>EN</span>
+        <span class="lang-option" data-lang="en">English EN</span>
         <span class="lang-divider" aria-hidden="true">/</span>
-        <span class="lang-option" data-lang="vi"><span class="hidden lg:inline">Tiếng Việt </span>VI</span>
+        <span class="lang-option" data-lang="vi">Tiếng Việt VI</span>
       </button>
     </nav>
   </div>
