@@ -19,16 +19,16 @@
     </a>
 
     <div class="flex items-center gap-3 lg:hidden">
-      <button
-        type="button"
+      <div
         id="lang-toggle-bar"
         class="lang-toggle hidden md:inline-flex lg:hidden"
+        role="group"
         aria-label="Switch language / Chuyển ngôn ngữ"
       >
-        <span class="lang-option" data-lang="en">English EN</span>
+        <button type="button" class="lang-option" data-lang="en">English EN</button>
         <span class="lang-divider" aria-hidden="true">/</span>
-        <span class="lang-option" data-lang="vi">Tiếng Việt VI</span>
-      </button>
+        <button type="button" class="lang-option" data-lang="vi">Tiếng Việt VI</button>
+      </div>
 
       <button
         type="button"
@@ -62,16 +62,16 @@
         >Language</span
       >
 
-      <button
-        type="button"
+      <div
         id="lang-toggle-nav"
         class="lang-toggle mt-2 inline-flex md:hidden lg:mt-0 lg:inline-flex"
+        role="group"
         aria-label="Switch language / Chuyển ngôn ngữ"
       >
-        <span class="lang-option" data-lang="en">English EN</span>
+        <button type="button" class="lang-option" data-lang="en">English EN</button>
         <span class="lang-divider" aria-hidden="true">/</span>
-        <span class="lang-option" data-lang="vi">Tiếng Việt VI</span>
-      </button>
+        <button type="button" class="lang-option" data-lang="vi">Tiếng Việt VI</button>
+      </div>
     </nav>
   </div>
 </header>
