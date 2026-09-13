@@ -24,6 +24,18 @@ if (menuToggle && siteNav) {
   siteNav.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", closeMenu);
   });
+
+  document.addEventListener("click", (event) => {
+    if (!siteNav.classList.contains("is-open")) return;
+    if (siteNav.contains(event.target) || menuToggle.contains(event.target)) return;
+    closeMenu();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !siteNav.classList.contains("is-open")) return;
+    closeMenu();
+    menuToggle.focus();
+  });
 }
 
 const currentPage = document.body.dataset.page;

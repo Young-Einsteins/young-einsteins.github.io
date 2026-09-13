@@ -32,7 +32,9 @@ function applyLanguage(lang) {
   });
 
   document.querySelectorAll(".lang-option").forEach((el) => {
-    el.classList.toggle("is-active", el.dataset.lang === activeLang);
+    const isActive = el.dataset.lang === activeLang;
+    el.classList.toggle("is-active", isActive);
+    el.setAttribute("aria-pressed", String(isActive));
   });
 
   localStorage.setItem("ye-lang", activeLang);

@@ -28,11 +28,12 @@ body {
     @apply absolute inset-x-0 top-full z-40 flex -translate-y-2 flex-col gap-1 border-b border-slate-200
       bg-white px-4 pb-4 pt-2 opacity-0 shadow-[var(--shadow-header)] transition-all duration-300 ease-in-out pointer-events-none
       lg:static lg:z-auto lg:flex lg:translate-y-0 lg:flex-row lg:items-center lg:gap-3 lg:border-0 lg:bg-transparent
-      lg:px-0 lg:pb-0 lg:pt-0 lg:opacity-100 lg:shadow-none pointer-events-auto lg:pointer-events-auto;
+      lg:px-0 lg:pb-0 lg:pt-0 lg:opacity-100 lg:shadow-none pointer-events-auto lg:pointer-events-auto
+      invisible lg:visible;
   }
 
   .site-nav.is-open {
-    @apply pointer-events-auto translate-y-0 opacity-100;
+    @apply pointer-events-auto visible translate-y-0 opacity-100;
   }
 
   .nav-link {
@@ -52,7 +53,7 @@ body {
   }
 
   .lang-option {
-    @apply whitespace-nowrap rounded-full px-3 py-2 transition-colors;
+    @apply cursor-pointer whitespace-nowrap rounded-full px-3 py-2 transition-colors;
   }
 
   .lang-option.is-active {
