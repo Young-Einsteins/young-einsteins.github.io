@@ -157,7 +157,10 @@ body {
 
   .marquee-track {
     @apply flex w-max gap-5;
-    animation: marquee-scroll 320s linear infinite;
+  }
+
+  .marquee-track.is-scrolling {
+    animation: marquee-scroll 150s linear infinite;
   }
 
   .testimonial-card {
