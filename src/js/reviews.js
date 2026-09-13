@@ -228,6 +228,8 @@ export const reviews = [
   { quote: "Thank you for helping my son improve his Maths. We really appreciate it.", rating: 5, attribution: "Year 5 Parent" },
 ];
 
+const VISIBLE_COUNT = 20;
+
 function starString(rating) {
   return "★".repeat(rating) + "☆".repeat(5 - rating);
 }
@@ -236,7 +238,14 @@ export function initTestimonials() {
   const track = document.getElementById("testimonial-track");
   if (!track || reviews.length === 0) return;
 
-  const cardsHtml = reviews
+  const shuffled = [...reviews];
+  for (let i = shuffled.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  const cardsHtml = shuffled
+    .slice(0, VISIBLE_COUNT)
     .map(
       (review) => `
         <article class="testimonial-card">
@@ -249,4 +258,5 @@ export function initTestimonials() {
     .join("");
 
   track.innerHTML = cardsHtml + cardsHtml;
+  track.classList.add("is-scrolling");
 }
