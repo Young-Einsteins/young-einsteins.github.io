@@ -6,14 +6,14 @@ export const reviews = [
   },
   {
     quote:
-      "A big thank you to Young Einsteins. Because of your teaching, my daughter has improved so much - she can now read simple words and do maths much faster.",
-    rating: 4,
+      "A big thank you to the tutors at Young Einsteins. Because of your teaching, my daughter has improved so much - she can now read simple words and do maths much faster.",
+    rating: 5,
     attribution: "Pre-Primary Parent",
   },
   { quote: "I am so proud of my son - he got an A this semester. Thank you very much.", rating: 5, attribution: "Year 6 Parent" },
   {
     quote:
-      "Thank you very much. All of my friends are proud of him and keep asking where he did his tutoring - I always recommend you, since they can see how much he's improved. He wants to keep doing tutoring next year too, but only with Young Einsteins (he just loves the teaching).",
+      "Thank you very much. All of my friends are proud of him and keep asking where he did his tutoring - I always recommend you, since they can see how much he's improved. He wants to keep doing tutoring next year too, but only with Mrs Fiona (he just loves her teaching).",
     rating: 5,
     attribution: "Year 7 Parent",
   },
@@ -25,7 +25,7 @@ export const reviews = [
   },
   {
     quote:
-      "What great news! His school report shows he's improved a lot compared to last semester - thank you so much to you and the Young Einsteins team for teaching and supporting him. I'm so proud of him. He said he'll try even harder to get the trophy next time!",
+      "What great news! His school report shows he's improved a lot compared to last semester - thank you so much to the tutors at Young Einsteins for teaching and supporting him. I'm so proud of him. He said he'll try even harder to get the trophy next time!",
     rating: 5,
     attribution: "Year 5 Parent",
   },
@@ -38,7 +38,7 @@ export const reviews = [
   {
     quote:
       "I wanted to thank you - my son got an A in Maths at school! He feels so much more motivated studying Maths now thanks to your tutoring. Many thanks!",
-    rating: 4,
+    rating: 5,
     attribution: "Year 8 Parent",
   },
   {
@@ -49,15 +49,15 @@ export const reviews = [
   },
   {
     quote:
-      "Dear Young Einsteins, I had so much fun learning at your tutoring place. I'm looking forward to coming back next year. Merry Christmas to you all - wishing you all the best in the world!",
+      "Dear Mr Fong and Mrs Fiona, I had so much fun learning at your tutoring place. I'm looking forward to coming back next year. Merry Christmas to you all - wishing you all the best in the world!",
     rating: 5,
     attribution: "Year 6 Student",
   },
   {
     quote:
-      "Thank you very much for your enthusiasm and the time you've given to help improve our children's school results. My son especially has achieved his goals - a special thank you to the Young Einsteins tutors as well.",
+      "Thank you very much for your enthusiasm and the time you've given to help improve our children's school results. My son especially has achieved his goals.",
     rating: 5,
-    attribution: "Year 9 Parent",
+    attribution: "Year 7 and Year 9 Parent",
   },
   {
     quote:
@@ -68,14 +68,14 @@ export const reviews = [
   {
     quote:
       "I also wanted to share how much my son has enjoyed his Sunday sessions with you all - it's been so helpful, and we're truly grateful.",
-    rating: 4,
+    rating: 5,
     attribution: "Year 6 Parent",
   },
   {
     quote:
       "Thanks for the lessons - so glad she passed her exam last week. She did very well compared to previous tests. We appreciate your hard work.",
     rating: 5,
-    attribution: "Year 11 Parent",
+    attribution: "Year 9 Parent",
   },
   {
     quote:
@@ -91,19 +91,19 @@ export const reviews = [
   },
   {
     quote:
-      "I used to go to other tutoring places, but I didn't like them because the tutor wouldn't really teach me even when I asked. Then I came to Young Einsteins to study. I tried to pretend, but it didn't work, so I had to actually study harder - and I improved!",
+      "I used to go to other tutoring places, but I didn't like them because the tutor wouldn't really teach me even when I asked. Then I came to Mrs Fiona to study. I tried to pretend, but it didn't work, so I had to actually study harder - and I improved!",
     rating: 5,
-    attribution: "Year 9 Student",
+    attribution: "Year 5 Student",
   },
   {
     quote:
-      "Dear Young Einsteins, this is a poem I wrote for you: I know what makes you happy, I know what makes you sad, so I did my homework for you, to make you feel glad.",
+      "Dear Portia, this is a poem I wrote for you: I know what makes you happy, I know what makes you sad, so I did my homework for you, to make you feel glad.",
     rating: 5,
     attribution: "Year 4 Student",
   },
   {
     quote: "My daughter's school semester report was great, with an excellent result in Maths and a high mark in English. Thank you!",
-    rating: 4,
+    rating: 5,
     attribution: "Year 10 Parent",
   },
   {
@@ -127,18 +127,18 @@ export const reviews = [
     quote:
       "My daughter received an excellent result in Maths and a high B in English - she's over the moon with the results! Thanks heaps to you and your team's effort and diligence.",
     rating: 5,
-    attribution: "Year 11 Parent",
+    attribution: "Year 8 Parent",
   },
   {
-    quote: "Thank you, Young Einsteins - with your help I was able to pass English and achieved an overall ATAR of 93.",
-    rating: 4,
+    quote: "Thank you, Mr Fong - with your help I was able to pass English and achieved an overall ATAR of 93.",
+    rating: 5,
     attribution: "Year 12 Student",
   },
   {
     quote:
       "Thank you for tutoring my children and helping them get through school - teaching, comforting, and supporting them through every educational decision we make. Thank you.",
     rating: 5,
-    attribution: "Year 12 Parent",
+    attribution: "Year 10 and Year 12 Parent",
   },
   {
     quote:
@@ -159,8 +159,8 @@ export const reviews = [
     attribution: "Year 11 Student",
   },
   {
-    quote: "Thank you, Young Einsteins, for helping me improve my English. You are also extremely kind and patient.",
-    rating: 4,
+    quote: "Thank you for helping me improve my English. You are also extremely kind and patient.",
+    rating: 5,
     attribution: "Year 10 Student",
   },
   {
@@ -181,7 +181,7 @@ export const reviews = [
   },
   {
     quote:
-      "Thank you so much, Young Einsteins, for the last two terms. You've helped me greatly with my studies. I've improved a lot in Year 9 thanks to your tutors. I hope you enjoy your holidays and have a lovely summer - see you next year!",
+      "Thank you so much for the last two terms. You've helped me greatly with my studies. I've improved a lot in Year 9 thanks to your tutors. I hope you enjoy your holidays and have a lovely summer - see you next year!",
     rating: 5,
     attribution: "Year 9 Student",
   },
@@ -206,7 +206,7 @@ export const reviews = [
     quote:
       "He had never received a 'B' before - it was all 'C's since kindergarten - so I wanted to let you know right away. It really shows my son has been making real progress. I'm truly surprised, and want to thank you and the team for all your hard work with him.",
     rating: 5,
-    attribution: "Year 3 Parent",
+    attribution: "Year 5 Parent",
   },
   {
     quote:
@@ -216,7 +216,7 @@ export const reviews = [
   },
   {
     quote:
-      "My parents found me a cheap tutor online, but they didn't really know their stuff, so I begged my parents to let me go tutoring with Young Einsteins instead. I highly recommend them!",
+      "My parents found me a cheap tutor online, but they didn't really know their stuff, so I begged my parents to let me go tutoring with Portia instead. I highly recommend her!",
     rating: 5,
     attribution: "Year 9 Student",
   },
