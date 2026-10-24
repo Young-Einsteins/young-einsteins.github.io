@@ -229,15 +229,15 @@ export const translations = {
     en: "Flexible payment arrangements made for every family.",
     vi: "Hình thức thanh toán linh hoạt, phù hợp cho mọi gia đình.",
   },
-  "subjects.payments.monthly.title": { en: "Monthly Payments", vi: "Thanh Toán Hàng Tháng" },
-  "subjects.payments.monthly.text": {
-    en: "A convenient option for ongoing tutoring support.",
-    vi: "Lựa chọn thuận tiện cho việc học kèm liên tục.",
-  },
   "subjects.payments.term.title": { en: "Term Basis", vi: "Thanh Toán Theo Học Kỳ" },
   "subjects.payments.term.text": {
     en: "Available for families who prefer to plan ahead across the school term.",
     vi: "Dành cho các gia đình muốn lên kế hoạch trước cho cả học kỳ.",
+  },
+  "subjects.payments.halfterm.title": { en: "Half-Term Basis (5 Weeks)", vi: "Thanh Toán Theo Nửa Học Kỳ (5 Tuần)" },
+  "subjects.payments.halfterm.text": {
+    en: "A shorter commitment, paid every 5 weeks across the school term.",
+    vi: "Lựa chọn ngắn hạn hơn, thanh toán mỗi 5 tuần trong học kỳ.",
   },
 
   "subjects.times.title": { en: "Current Lesson Times", vi: "Lịch Học Hiện Tại" },
